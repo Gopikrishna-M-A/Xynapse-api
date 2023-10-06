@@ -12,7 +12,7 @@ import internRoutes from './routes/intern.js';
 const app = express();
 
 const corsOptions = {
-  origin: ['*'],
+  origin: [' https://api.xynapsetechnologies.com',' http://localhost:3000'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   Headers: true,
   preflightContinue: false,
